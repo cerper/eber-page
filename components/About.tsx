@@ -27,8 +27,8 @@ const aboutData = [
 
 const About = () => {
   return (
-    <section className="py-10 text-black" id="about">
-      <h4 className="h4 text-center font-oswald text-4xl">Acerca de mi</h4>
+    <section className="mt-10 bg-black py-10 text-white" id="about">
+      <h3 className="h4 text-center font-oswald text-7xl">Acerca de mi</h3>
       <div className="mt-10 flex flex-col items-center justify-center">
         <p className="text-2xl">Productor musical, creador de letras </p>
       </div>

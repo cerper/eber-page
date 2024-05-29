@@ -6,7 +6,7 @@ import logo from "@/public/productor.png";
 const Header = () => {
   return (
     <div>
-      <header className="fixed top-0 z-50 h-[140px] w-full max-w-[1920px] bg-white lg:h-[118px]">
+      <header className="fixed top-0 z-50 h-[140px] w-full max-w-[1920px] bg-black lg:h-[118px]">
         <div className="container mx-auto flex h-full flex-col items-center justify-between lg:flex-row">
           <Link href="/">
             <Image
@@ -18,8 +18,8 @@ const Header = () => {
             />
           </Link>
 
-          <MobileNav containerStyles="capitalize fixed text-black mt-4 flex font-bold gap-4  md:text-xl lg:hidden" />
-          <Nav containerStyles="capitalize flex gap-4 hidden font-bold text-black lg:flex" />
+          <MobileNav containerStyles="capitalize fixed text-white mt-4 flex font-bold gap-4  md:text-xl lg:hidden" />
+          <Nav containerStyles="capitalize flex gap-4 hidden font-bold text-white lg:flex" />
         </div>
       </header>
     </div>
